@@ -1,0 +1,42 @@
+git --version
+git init
+
+git -config user.name siddhc-codes
+git -config user.email siddhc.codes@gmail.com
+git -config user.name
+git -config user.email
+
+git status
+git add .
+git restore --staged file_name
+git commit -m "Message for the commit"
+
+git log
+git log --oneline
+
+git checkout 7_char_unique_id
+git checkout master
+
+git revert 7_char_unique_id
+
+git reset 7_char_unique_id
+git reset 7_char_unique_id --hard
+
+git branch new_branch_name
+git branch -a
+git checkout branch_name
+git branch master
+git branch -D branch_name
+git checkout -b feature-a
+
+git merge branch_name
+
+
+git push very_long_repo_url master
+git remote add alias_name_origin very_long_repo_url
+git push alias_name_origin master
+
+git remote -v
+
+git pull origin branch_to_pull
+
